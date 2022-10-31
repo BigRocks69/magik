@@ -12423,9 +12423,10 @@ section {
 
 #hero .hero-title {
   text-align: center;
-  margin-bottom: 3.2rem;
-  font-size: 5.6rem;
-  font-weight: 700;
+  margin-top: 200px;
+  margin-bottom: 4rem;
+  font-size: 5rem;
+  font-weight: 600;
 }
 
 @media (max-width: 75em) {
@@ -12443,7 +12444,9 @@ section {
 
 @media (max-width: 37.5em) {
   #hero .hero-title {
-    font-size: 3.5rem;
+    margin-top: 200px;
+    margin-bottom: 8rem;
+    font-size: 3rem;
     line-height: 1.5;
   }
 }
@@ -12455,7 +12458,7 @@ section {
 }
 
 #hero iframe.noScrolling {
-  margin: auto;
+  justify-content: center;
   display: block;
 }
 
